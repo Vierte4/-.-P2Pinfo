@@ -1,0 +1,147 @@
+1656794728213	geckodriver	INFO	Listening on 127.0.0.1:50200
+1656795090952	geckodriver	INFO	Listening on 127.0.0.1:50627
+1656795095427	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-blink-features=AutomationControlled" "--remote-debugging-port" "50628" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\asadm\\AppData\\Local\\Temp\\rust_mozprofilerKj5Ex"
+*** You are running in headless mode.
+1656795097634	Marionette	INFO	Marionette enabled
+1656795097653	Marionette	INFO	Listening on port 50640
+WebDriver BiDi listening on ws://localhost:50628
+Read port: 50640
+1656795098652	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\asadm\\AppData\\Local\\Temp\\rust_mozprofilerKj5Ex\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50628/devtools/browser/03c9c92b-b560-49b0-a94f-2bc6bd2c9844
+JavaScript warning: https://assets3.staticimg.com/yandex-metrica-watch/tag/tag.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656795210562	geckodriver	INFO	Listening on 127.0.0.1:50793
+1656795213710	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-blink-features=AutomationControlled" "--remote-debugging-port" "50794" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\asadm\\AppData\\Local\\Temp\\rust_mozprofileCQHuDF"
+*** You are running in headless mode.
+1656795216805	Marionette	INFO	Marionette enabled
+1656795216860	Marionette	INFO	Listening on port 50806
+WebDriver BiDi listening on ws://localhost:50794
+Read port: 50806
+1656795217941	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\asadm\\AppData\\Local\\Temp\\rust_mozprofileCQHuDF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50794/devtools/browser/b480ac5d-24ea-4bfa-8781-46926a4983ce
+JavaScript warning: https://assets3.staticimg.com/yandex-metrica-watch/tag/tag.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656795306783	geckodriver	INFO	Listening on 127.0.0.1:51007
+1656795309875	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-blink-features=AutomationControlled" "--remote-debugging-port" "51008" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\asadm\\AppData\\Local\\Temp\\rust_mozprofileUW4U4N"
+*** You are running in headless mode.
+1656795322016	Marionette	INFO	Marionette enabled
+1656795322067	Marionette	INFO	Listening on port 51026
+Read port: 51026
+WebDriver BiDi listening on ws://localhost:51008
+1656795323603	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\asadm\\AppData\\Local\\Temp\\rust_mozprofileUW4U4N\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51008/devtools/browser/b37def88-c05b-4d39-94d5-bc1b638a3f30
+JavaScript warning: https://assets3.staticimg.com/yandex-metrica-watch/tag/tag.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656795430822	geckodriver	INFO	Listening on 127.0.0.1:51179
+1656795433872	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-blink-features=AutomationControlled" "--remote-debugging-port" "51180" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\asadm\\AppData\\Local\\Temp\\rust_mozprofileheMmjP"
+*** You are running in headless mode.
+1656795437257	Marionette	INFO	Marionette enabled
+1656795437268	Marionette	INFO	Listening on port 51192
+WebDriver BiDi listening on ws://localhost:51180
+Read port: 51192
+1656795438095	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\asadm\\AppData\\Local\\Temp\\rust_mozprofileheMmjP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51180/devtools/browser/2cb392f0-3d8b-46b6-97e1-d4417632bf83
+JavaScript warning: https://assets3.staticimg.com/yandex-metrica-watch/tag/tag.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656795560916	geckodriver	INFO	Listening on 127.0.0.1:51356
+1656795563995	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-blink-features=AutomationControlled" "--remote-debugging-port" "51357" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\asadm\\AppData\\Local\\Temp\\rust_mozprofileJ0q2o5"
+*** You are running in headless mode.
+1656795567836	Marionette	INFO	Marionette enabled
+1656795567847	Marionette	INFO	Listening on port 51370
+WebDriver BiDi listening on ws://localhost:51357
+Read port: 51370
+1656795568498	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\asadm\\AppData\\Local\\Temp\\rust_mozprofileJ0q2o5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51357/devtools/browser/22d93e3d-3282-4e36-8307-5d6f05a45417
+JavaScript warning: https://assets3.staticimg.com/yandex-metrica-watch/tag/tag.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656795612405	geckodriver	INFO	Listening on 127.0.0.1:51482
+1656795615463	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-blink-features=AutomationControlled" "--remote-debugging-port" "51483" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\asadm\\AppData\\Local\\Temp\\rust_mozprofile8YqzV8"
+*** You are running in headless mode.
+1656795616637	Marionette	INFO	Marionette enabled
+1656795616649	Marionette	INFO	Listening on port 51494
+WebDriver BiDi listening on ws://localhost:51483
+Read port: 51494
+1656795617402	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\asadm\\AppData\\Local\\Temp\\rust_mozprofile8YqzV8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51483/devtools/browser/82998378-1449-430b-b91b-963b99e5dc64
+JavaScript warning: https://assets3.staticimg.com/yandex-metrica-watch/tag/tag.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656795707750	geckodriver	INFO	Listening on 127.0.0.1:51623
+1656795710784	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-blink-features=AutomationControlled" "--remote-debugging-port" "51624" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\asadm\\AppData\\Local\\Temp\\rust_mozprofilerCfwRI"
+*** You are running in headless mode.
+1656795711927	Marionette	INFO	Marionette enabled
+1656795711939	Marionette	INFO	Listening on port 51635
+WebDriver BiDi listening on ws://localhost:51624
+Read port: 51635
+1656795712675	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\asadm\\AppData\\Local\\Temp\\rust_mozprofilerCfwRI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51624/devtools/browser/9cbbf25e-efff-464d-b5c9-0ca4945a3513
+JavaScript warning: https://assets3.staticimg.com/yandex-metrica-watch/tag/tag.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656795779144	geckodriver	INFO	Listening on 127.0.0.1:51757
+1656795782170	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-blink-features=AutomationControlled" "--remote-debugging-port" "51758" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\asadm\\AppData\\Local\\Temp\\rust_mozprofilezvLFJ8"
+*** You are running in headless mode.
+1656795783359	Marionette	INFO	Marionette enabled
+1656795783371	Marionette	INFO	Listening on port 51769
+WebDriver BiDi listening on ws://localhost:51758
+Read port: 51769
+1656795784076	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\asadm\\AppData\\Local\\Temp\\rust_mozprofilezvLFJ8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51758/devtools/browser/cf3449c9-3881-4cd2-bc41-77b7c785367c
+JavaScript warning: https://assets3.staticimg.com/yandex-metrica-watch/tag/tag.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656795834998	geckodriver	INFO	Listening on 127.0.0.1:51881
+1656795838057	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-blink-features=AutomationControlled" "--remote-debugging-port" "51882" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\asadm\\AppData\\Local\\Temp\\rust_mozprofile0ZoAeK"
+*** You are running in headless mode.
+1656795841288	Marionette	INFO	Marionette enabled
+1656795841303	Marionette	INFO	Listening on port 51895
+WebDriver BiDi listening on ws://localhost:51882
+Read port: 51895
+1656795842073	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\asadm\\AppData\\Local\\Temp\\rust_mozprofile0ZoAeK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51882/devtools/browser/b022c718-32ca-4a96-821c-c941cf6873fa
+JavaScript warning: https://assets3.staticimg.com/yandex-metrica-watch/tag/tag.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656795912734	geckodriver	INFO	Listening on 127.0.0.1:52028
+1656795915826	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-blink-features=AutomationControlled" "--remote-debugging-port" "52029" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\asadm\\AppData\\Local\\Temp\\rust_mozprofileKyjNwE"
+*** You are running in headless mode.
+1656795925104	Marionette	INFO	Marionette enabled
+1656795925114	Marionette	INFO	Listening on port 52053
+WebDriver BiDi listening on ws://localhost:52029
+Read port: 52053
+1656795925959	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\asadm\\AppData\\Local\\Temp\\rust_mozprofileKyjNwE\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 765))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:52029/devtools/browser/630d09d0-0d6d-4c5f-810f-f424f99150cc
+JavaScript warning: https://assets3.staticimg.com/yandex-metrica-watch/tag/tag.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656839296536	geckodriver	INFO	Listening on 127.0.0.1:56349
+1656839299804	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-blink-features=AutomationControlled" "--remote-debugging-port" "56350" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\asadm\\AppData\\Local\\Temp\\rust_mozprofileQmmIkM"
+*** You are running in headless mode.
+1656839305692	Marionette	INFO	Marionette enabled
+1656839305712	Marionette	INFO	Listening on port 56368
+WebDriver BiDi listening on ws://localhost:56350
+Read port: 56368
+1656839306889	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\asadm\\AppData\\Local\\Temp\\rust_mozprofileQmmIkM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56350/devtools/browser/4ec1a018-5753-467f-b202-d9d7f6a76282
+JavaScript warning: https://assets3.staticimg.com/yandex-metrica-watch/tag/tag.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656839345346	geckodriver	INFO	Listening on 127.0.0.1:56483
+1656839348361	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-blink-features=AutomationControlled" "--remote-debugging-port" "56484" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\asadm\\AppData\\Local\\Temp\\rust_mozprofilesL78m1"
+*** You are running in headless mode.
+1656839349413	Marionette	INFO	Marionette enabled
+1656839349423	Marionette	INFO	Listening on port 56496
+WebDriver BiDi listening on ws://localhost:56484
+Read port: 56496
+1656839350030	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\asadm\\AppData\\Local\\Temp\\rust_mozprofilesL78m1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56484/devtools/browser/f1a93b3f-87d3-4baa-9798-ca8f637b37d0
+JavaScript warning: https://assets3.staticimg.com/yandex-metrica-watch/tag/tag.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
