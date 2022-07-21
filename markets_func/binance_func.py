@@ -93,8 +93,9 @@ class BinanceChecker():
 
     def click_by_text_index(self, text, i):
         button = \
-        self.driver.find_elements(By.XPATH, f"//*[contains(text(), '{text}')]")[
-            i]
+            self.driver.find_elements(By.XPATH,
+                                      f"//*[contains(text(), '{text}')]")[
+                i]
         self.driver.execute_script("arguments[0].click();", button)
 
 
@@ -119,45 +120,3 @@ if __name__ == '__main__':
     binance.get_info()
     print(time.time())
     binance.print_data()
-
-'''def binance_checker(initial_url, driver: webdriver.Chrome):
-    try:
-        try:
-            driver.get(initial_url)
-        except:
-            try:
-                driver.get(initial_url)
-            except:
-                driver.get(initial_url)
-        wait = WebDriverWait(driver, 30)
-
-        return wait.until(EC.element_to_be_clickable(
-            (By.CLASS_NAME, price_class))).text
-    except Exception as e:
-        print(e)
-        return 'Ошибка'
-
-def binance_thread(driver):
-    # driver = start_webdriver(binance_user_path)
-
-
-    usdt_buy_rosbank = binance_checker(binance_usdt_buy_rosbank, driver)
-    usdt_sell_rosbank = binance_checker(binance_usdt_sell_rosbank, driver)
-    usdt_buy_tinkoff = binance_checker(binance_usdt_buy_tinkoff, driver)
-    usdt_sell_tinkoff = binance_checker(binance_usdt_sell_tinkoff, driver)
-    btc_buy_rosbank = binance_checker(binance_btc_buy_rosbank, driver)
-    btc_sell_rosbank = binance_checker(binance_btc_sell_rosbank, driver)
-    btc_buy_tinkoff = binance_checker(binance_btc_buy_tinkoff, driver)
-    btc_sell_tinkoff = binance_checker(binance_btc_sell_tinkoff, driver)
-
-    print(usdt_buy_rosbank)
-    print(usdt_sell_rosbank)
-    print(usdt_buy_tinkoff)
-    print(usdt_sell_tinkoff)
-    print(btc_buy_rosbank)
-    print(btc_sell_rosbank)
-    print(btc_buy_tinkoff)
-    print(btc_sell_tinkoff)
-    print(4444)
-
-'''

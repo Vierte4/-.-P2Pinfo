@@ -84,8 +84,9 @@ class BybitChecker():
 
     def click_by_text_index(self, text, i):
         button = \
-        self.driver.find_elements(By.XPATH, f"//*[contains(text(), '{text}')]")[
-            i]
+            self.driver.find_elements(By.XPATH,
+                                      f"//*[contains(text(), '{text}')]")[
+                i]
         self.driver.execute_script("arguments[0].click();", button)
 
 
@@ -106,57 +107,3 @@ if __name__ == '__main__':
     bybit.get_info()
     print(time.time())
     bybit.print_data()
-
-'''def bybit_checker(initial_url, driver: webdriver.Chrome):
-    try:
-        try:
-            driver.get(initial_url)
-        except:
-            try:
-                driver.get(initial_url)
-            except:
-                driver.get(initial_url)
-
-        wait = WebDriverWait(driver, 30)
-
-        return wait.until(EC.element_to_be_clickable(
-            (By.CLASS_NAME, price_class))).text
-    except Exception as e:
-        print(e)
-        return 'Ошибка'''
-
-'''def bybit_thread(driver):
-
-    # driver = start_webdriver(bybit_user_path)
-
-    usdt_buy_rosbank = bybit_checker(bybit_usdt_buy_rosbank, driver)
-    usdt_sell_rosbank = bybit_checker(bybit_usdt_sell_rosbank, driver)
-    usdt_buy_tinkoff = bybit_checker(bybit_usdt_buy_tinkoff, driver)
-    usdt_sell_tinkoff = bybit_checker(bybit_usdt_sell_tinkoff, driver)
-    btc_buy_rosbank = bybit_checker(bybit_btc_buy_rosbank, driver)
-    btc_sell_rosbank = bybit_checker(bybit_btc_sell_rosbank, driver)
-    btc_buy_tinkoff = bybit_checker(bybit_btc_buy_tinkoff, driver)
-    btc_sell_tinkoff = bybit_checker(bybit_btc_sell_tinkoff, driver)
-
-    print(usdt_buy_rosbank)
-    print(usdt_sell_rosbank)
-    print(usdt_buy_tinkoff)
-    print(usdt_sell_tinkoff)
-    print(btc_buy_rosbank)
-    print(btc_sell_rosbank)
-    print(btc_buy_tinkoff)
-    print(btc_sell_tinkoff)
-    print(3333)'''
-
-"""    for a in range(0, 25):
-        for word in key_words:
-            if (word in teg_containers[a].text or word in headings[a].text) and not (headings[a].text in last_tasks):
-                tasks.append(f'{headings[a].text}\n {headings[a].get_attribute("href")}')
-    return tasks
-    //*[@id="tasks_list"]/li[24]/article/div/header/div[1]/a
-    //*[@id="tasks_list"]/li[1]/article/div/header/div[1]
-//*[@id="tasks_list"]/li[25]/article/div/header/div[1]/a
-//*[@id="tasks_list"]/li[25]/article/div/header/div[1]
-////*[@id="tasks_list"]/li[24]/article/div/div/ul
-//*[@id="tasks_list"]/li[24]/article/div/header/div[1]
-//*[@id="tasks_list"]/li[24]/article/div/div/ul"""

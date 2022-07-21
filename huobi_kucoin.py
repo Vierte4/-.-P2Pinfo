@@ -35,8 +35,8 @@ class MainParser():
                 self.driver = start_webdriver(self.user_data_path)
                 self.huobi = HuobiChecker(self.driver)
                 self.kucoin = KucoinChecker(self.driver)
-                continue
-            time.sleep(random.randint(40, 60))
+                continue    
+            time.sleep(random.randint(20, 40))
 
 
 if __name__ == '__main__':

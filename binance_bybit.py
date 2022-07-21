@@ -35,7 +35,7 @@ class MainParser():
                 self.binance = BinanceChecker(self.driver)
                 self.bybit = BybitChecker(self.driver)
                 continue
-            time.sleep(random.randint(40, 60))
+            time.sleep(random.randint(20, 40))
 
 
 if __name__ == '__main__':

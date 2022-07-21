@@ -96,7 +96,9 @@ class HuobiChecker():
                 self.driver.window_handles[self.data[variant][0]])
             self.data[variant][-1] = self.wait.until(EC.element_to_be_clickable(
                 (
-                By.XPATH, f"//*[contains(@class, '{self.price_class}')]"))).text
+                    By.XPATH,
+                    f"//*[contains(@class, '{self.price_class}')]"))).text.split()[
+                0]
 
     def print_data(self):
         for variant in self.data.keys():
@@ -120,8 +122,9 @@ class HuobiChecker():
 
     def click_by_text_index(self, text, i):
         button = \
-        self.driver.find_elements(By.XPATH, f"//*[contains(text(), '{text}')]")[
-            i]
+            self.driver.find_elements(By.XPATH,
+                                      f"//*[contains(text(), '{text}')]")[
+                i]
         self.driver.execute_script("arguments[0].click();", button)
 
 
@@ -146,108 +149,3 @@ if __name__ == '__main__':
     binance.get_info()
     print(time.time())
     binance.print_data()
-
-'''def huobi_checker(initial_url, driver:webdriver.Chrome):
-    action = webdriver.ActionChains(driver)
-    try:
-        driver.get(initial_url)
-    except:
-        try:
-            driver.get(initial_url)
-        except:
-            driver.get(initial_url)
-
-    wait = WebDriverWait(driver, 30)
-
-    # Выбираем тинькофф
-    try:
-        methods_button = wait.until(EC.element_to_be_clickable(
-            (By.XPATH, f"//*[contains(text(), '{methods_button_text}')]")))
-        methods_button.click()
-    except:
-        methods_button = wait.until(EC.element_to_be_clickable(
-            (By.XPATH, f"//*[contains(text(), '{methods_button_text}')]")))
-        methods_button.click()
-    time.sleep(1)
-    wait.until(EC.element_to_be_clickable(
-        (By.XPATH, f"//*[contains(text(), 'Тинькофф')]"))).click()
-
-    time.sleep(1)
-    driver.find_elements(By.XPATH, f"//*[contains(text(), '{accept_button_text}')]")[-1].click()
-
-    # Сохраняем лучшую цену фильтра Тинькофф
-    tinkoff_price = wait.until(EC.element_to_be_clickable(
-        (By.XPATH, f"//*[contains(@class, '{price_class}')]"))).text
-
-    # Убираем тинькофф и выбираем Росбанк
-    methods_button.click()
-    time.sleep(2)
-    tink_button = driver.find_elements(By.XPATH, f"//*[contains(text(), 'Тинькофф')]")[1]
-    tink_button.click()
-    wait.until(EC.element_to_be_clickable(
-        (By.XPATH, f"//*[contains(text(), 'Росбанк')]"))).click()
-    time.sleep(1)
-
-    wait.until(EC.element_to_be_clickable(
-        (By.XPATH, f"//*[contains(text(), '{accept_button_text}')]")))
-    driver.find_elements(By.XPATH, f"//*[contains(text(), '{accept_button_text}')]")[-1].click()
-    time.sleep(1)
-
-    rosbank_price = wait.until(EC.element_to_be_clickable(
-        (By.XPATH, f"//*[contains(@class, '{price_class}')]"))).text
-
-    # Возвращаем "Все способы"
-    methods_button.click()
-    time.sleep(1)
-    wait.until(EC.element_to_be_clickable(
-        (By.XPATH, f"//*[contains(text(), 'Все способы')]"))).click()
-    time.sleep(1)
-    wait.until(EC.element_to_be_clickable(
-        (By.XPATH, f"//*[contains(text(), '{accept_button_text}')]")))
-    driver.find_elements(By.XPATH,
-                         f"//*[contains(text(), '{accept_button_text}')]")[
-        -1].click()
-    time.sleep(1)
-
-    return tinkoff_price, rosbank_price
-
-
-def huobi_thread(driver):
-    # driver = start_webdriver(huobi_user_path)
-
-    try:
-        usdt_buy_tinkoff, usdt_buy_rosbank = huobi_checker(
-            huobi_buy_usdt_url, driver)
-    except Exception as e:
-        usdt_buy_tinkoff, usdt_buy_rosbank = 'Ошибка', 'Ошибка'
-        print(e)
-
-    try:
-        usdt_sell_tinkoff, usdt_sell_rosbank = huobi_checker(
-            huobi_sell_usdt_url, driver)
-    except Exception as e:
-        usdt_sell_tinkoff, usdt_sell_rosbank = 'Ошибка', 'Ошибка'
-        print(e)
-
-    try:
-        btc_buy_tinkoff, btc_buy_rosbank = huobi_checker(
-            huobi_buy_btc_url, driver)
-    except Exception as e:
-        btc_buy_tinkoff, btc_buy_rosbank = 'Ошибка', 'Ошибка'
-        print(e)
-    try:
-        btc_sell_tinkoff, btc_sell_rosbank = huobi_checker(
-            huobi_sell_btc_url, driver)
-    except Exception as e:
-        btc_sell_tinkoff, btc_sell_rosbank = 'Ошибка', 'Ошибка'
-        print(e)
-
-    print(usdt_buy_rosbank)
-    print(usdt_sell_rosbank)
-    print(usdt_buy_tinkoff)
-    print(usdt_sell_tinkoff)
-    print(btc_buy_rosbank)
-    print(btc_sell_rosbank)
-    print(btc_buy_tinkoff)
-    print(btc_sell_tinkoff)
-    print(1111)'''
